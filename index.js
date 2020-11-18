@@ -5,7 +5,8 @@ const server = http.createServer((request, response) => {
     response.end("Hello Bae Su JI!");
 });
 
-const port = process.env.PORT || 1337;
+const port = process.env.PORT || 3000;
+//const port = process.env.PORT || 1337;    // for azure devops
 server.listen(port);
 
 console.log("Server running at http://localhost:%d", port);
